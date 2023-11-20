@@ -1,0 +1,110 @@
+*{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.menu-color{
+    color: rgb(43, 43, 218);
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+color: rgb(51, 59, 173);
+text-align: center;
+border-radius: 5px;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
+color: #4133ff;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    background-image: url();
+}
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-technology-business-business-people-business-portrait-composition-image_796697.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    color: #1d1c1c; 
+    padding: 80px 0; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.texto{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.container-custom{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.servicios {
+    padding: 50px 0;
+}
+
+.container-custom {
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+.beneficios h4 {
+    color: #333; 
+    margin-top: 0; 
+}
+
+
+.beneficios p {
+    color: #555;
+    margin-bottom: 20px; 
+}
+
+.pie{
+    font-size: 13px;
+}
+.pie h5{
+    font-size: 13px;
+}
+.btn-2{
+    background-color: #4133ff;
+    font-size: 14px;
+    padding: 7px 15px;
+    color: #f5f5f5;
+    border-radius: 10px;
+}
+.funciones{
+    padding: 100px 0;
+    background-color: #1d1c1c;
+
+}
+.acerca-texto h2{
+    font-size: 30px;
+    text-align: center;
+}
+.acerca-texto p{
+    font-size: 16px;
+    color: #1d1c1c;
+    margin-bottom: 30px;
+}
+.botones{
+    align-items: center;
+    justify-content: center;
+}
